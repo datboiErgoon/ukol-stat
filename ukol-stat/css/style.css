@@ -1,0 +1,40 @@
+.sdebar{
+    background-color:white;
+    color: black;
+}
+    
+
+.hedr{
+    background-color:rgb(0, 158, 74);
+    color: white;
+    }
+
+
+.drop{
+      color: black !important;
+    }
+
+
+.batn {
+    background-color: rgb(0, 158, 74);
+    color: white;
+    }
+
+
+h2 {
+        background-color: rgb(0, 122, 57);
+        color: white;
+        font-size: 1.5em;
+        padding: 0.5em;
+        text-transform: uppercase;
+}
+
+h3 {
+    color: rgb(0, 158, 74);
+    font-size: 1.2em;
+    margin: 0.5em 0;
+}
+
+p {
+    color: black;
+}
