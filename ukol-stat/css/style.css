@@ -38,3 +38,39 @@ h3 {
 p {
     color: black;
 }
+
+
+
+table {
+border: 1px solid black;
+border-collapse: collapse;
+margin: 0 15em;
+}
+
+.td2 {
+border: 1px solid black;
+border-collapse: collapse;
+text-align: right; 
+}
+
+th {
+border: 1px solid black;
+border-collapse: collapse;
+text-align: center;
+background-color: rgb(0, 158, 74);
+color: white;
+}
+
+td {
+border: 1px solid black;
+border-collapse: collapse;
+text-align: center;
+font-weight: bold;
+color: rgb(0, 158, 74);
+}
+
+.table2 {
+border: 2px solid black;
+border-collapse: collapse;
+margin: 0;
+}
