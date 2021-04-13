@@ -5,7 +5,8 @@
     
 
 .hedr{
-    background-color:rgb(0, 158, 74);
+    /*background-color:rgb(0, 158, 74);*/
+    background-color: rgb(0, 122, 57);
     color: white;
     }
 
@@ -44,7 +45,7 @@ p {
 table {
 border: 1px solid black;
 border-collapse: collapse;
-margin: 0 15em;
+margin: 0 1em;
 }
 
 .td2 {
@@ -73,4 +74,23 @@ color: rgb(0, 158, 74);
 border: 2px solid black;
 border-collapse: collapse;
 margin: 0;
+}
+
+.poznamky{
+background-color: #ddd;
+font-size: 0.9em;
+padding: 0.5em;
+}
+
+.prvni{
+float: right;
+width: 200px;
+}
+
+.obrazky{
+    float: left;
+}
+
+.pcenter{
+    text-align: center;
 }
