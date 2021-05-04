@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="cz">
+<html lang="cs">
 
 <head>
 
@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Nigérie</title>
+  <title>Historie</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -29,7 +29,7 @@
   <div class="d-flex" id="wrapper">
     <!-- Sidebar -->
     <div class="sdebar border-right" id="sidebar-wrapper">
-      <div class="sidebar-heading"><a href="https://cs.wikipedia.org/wiki/Nig%C3%A9rie"><img src="img/vlajka-nigerie.jpg" alt="Státní vlajka Nigérie" style="height: 80px; width: 130px;"/></div>
+      <div class="sidebar-heading"><a href="https://cs.wikipedia.org/wiki/Nig%C3%A9rie"><img src="img/vlajka-nigerie.jpg" alt="Státní vlajka Nigérie" style="height: 80px; width: 130px;"/></a></div>
       <div class="list-group list-group-flush">
         <a href="index.html" class="list-group-item list-group-item-action sdebar">Úvodní strana</a>
         <a href="historie.html" class="list-group-item list-group-item-action sdebar">Historie</a>
@@ -46,7 +46,7 @@
     <div id="page-content-wrapper">
 
       <nav class="navbar navbar-expand-lg navbar-light sdebar border-bottom">
-        <button class="btn batn" id="menu-toggle">Menu</button>
+        <button class="btn batn" id="menu-toggle">. . .</button>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -59,49 +59,65 @@
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle drop" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown
+                Odkazy
               </a>
               <div class="sdebar dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item drop" href="#">Action</a>
-                <a class="dropdown-item drop" href="#">Another action</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item drop" href="#">Something else here</a>
+                <a class="dropdown-item drop" href="#jedna">Události</a>
+                <a class="dropdown-item drop" href="#dejiny">Dějiny</a>
+                <a class="dropdown-item drop" href="#symboly">Symboly</a>
               </div>
             </li>
           </ul>
         </div>
       </nav>
 
+    <main>
       <div class="container border mt-3 mb-3">
         <div class="row">
-          <main class="col-lg-6">
-            <section id="zacatek">
-              
-              <h2>Přehled</h2>
-                <h3>JOP</h3>
-              <p>burger</p>
-
+          <div class="col-12">
+            <h2>Důležité historické události</h2>
+            <p>jahahsjdjkal</p>
+          </div>
         </div>
       </div>
-    </main>
-    </section>
-  </div>
-    <!-- /#page-content-wrapper -->
+  </main>
+    <footer class="container-fluid hedr text-white p-3">
+      <div class="row">
+          <div class="col-lg-3">
+              
+          </div>
+          <div class="col-lg-5">
+              <h4>Autor</h4>
+              <p>Ondřej Repko</p>
+          </div>
+          <div class="col-lg-4">
+              <h4>Zdroj informací</h4>
+              <p><a href="https://cs.wikipedia.org/wiki/Nig%C3%A9rie">https://cs.wikipedia.org/wiki/Nig%C3%A9rie</a></p>
+          </div>
+      </div>
+      <hr class="bg-white">     
+      <h4 class="pcenter">&copy; 2021, SŠPU Opava</h4>
+  </footer>
 
   </div>
-  <!-- /#wrapper -->
+  <!-- /#page-content-wrapper -->
 
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+</div>
+<!-- /#wrapper -->
 
-  <!-- Menu Toggle Script -->
-  <script>
-    $("#menu-toggle").click(function(e) {
-      e.preventDefault();
-      $("#wrapper").toggleClass("toggled");
-    });
-  </script>
+<!-- Bootstrap core JavaScript -->
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="js/script.js"></script>
+<script src="js/historie.js"></script>
+
+<!-- Menu Toggle Script -->
+<script>
+  $("#menu-toggle").click(function(e) {
+    e.preventDefault();
+    $("#wrapper").toggleClass("toggled");
+  });
+</script>
 
 </body>
 
