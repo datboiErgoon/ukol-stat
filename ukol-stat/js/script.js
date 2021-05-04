@@ -4,5 +4,6 @@ $("h2").click(function(){
   });
 */
 $("h2").click(function(){
-    $(this).nextAll().slideToggle();
+    $(this).nextAll().slideToggle(800);
+
   });
