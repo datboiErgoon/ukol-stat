@@ -150,21 +150,19 @@ const heroes = [
        "likes":"40",
        "dislikes":"3",
        "gallery":[
-          "sochy1.jpg",
-          "sochy2.jpg"
+          "sochy1.jpg"
        ]
     },
     {
-        "title":"",
-        "text":"",
-        "date":"",
-        "author":"",
-        "source":"",
-        "likes":"",
-        "dislikes":"",
+        "title":"Byla jsem otrokyně teroristů. Tajné deníky unesené dívky líčí brutalitu Boko Haram",
+        "text":"Únos 270 křesťanských studentek ze střední školy v nigerijském městě Čibok vzbudil v dubnu 2014 velký mezinárodní ohlas. Za jejich propuštění se přimlouvala i tehdejší první dáma Spojených států Michelle Obamová nebo papež František. Jejich únosci z teroristické skupiny Boko Haram s nimi měli ale jiné plány. Měly konvertovat k islámu, aby se mohly provdat a zplodit další bojovníky. Když se povedlo po téměř třech letech ženy osvobodit, provdaná byla jen menšina z nich, která se skupinou zůstala. Zbylé dívky nátlaku únosců odolaly nebo uprchly, některé se svobody nedožily. Úřady stovku dívek dodnes pohřešují. Detaily toho, co přesně se za dlouhé měsíce v zajetí uprostřed afrických lesů událo, objasňuje kniha Bring Back Our Girls (Přiveďte naše dívky zpět). Pohled do života v zajetí autorům poskytly především deníky statečné studentky, jež je na svobodu vynesla schované pod oblečením. Publikace pojmenovaná podle hashtagu, který lidé na sociálních sítích k výzvám k propuštění dívek přidávali, vyjde začátkem března. ",
+        "date":"23.2.2021",
+        "author":"Jana Václavíková",
+        "source":"https://zpravy.aktualne.cz/zahranici/nebaly-se-a-odmitaly-poslusnost-deniky-popisuji-zivoty-divek/r~75b2d626750f11eba4560cc47ab5f122/",
+        "likes":"75",
+        "dislikes":"0",
         "gallery":[
-           ".jpg",
-           ".jpg"
+           "vojaci1.jpg"
         ]
      },
  ];
