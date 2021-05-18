@@ -1,0 +1,27 @@
+{
+  "name": "ukol-stat",
+  "version": "1.0.0",
+  "description": "\"# ukol-stat\"",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jquery": "^3.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/datboiErgoon/ukol-stat.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/datboiErgoon/ukol-stat/issues"
+  },
+  "homepage": "https://github.com/datboiErgoon/ukol-stat#readme"
+}

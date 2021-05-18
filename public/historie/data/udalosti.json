@@ -1,0 +1,39 @@
+[
+    {
+        "year":"1500 př. n. l.",
+        "event":"Vznik Nocké kultury",
+        "detail":"Kultura Nok nebo Nocká kultura byla jednou z nejstarších civilizací subsaharské Afriky. Existovala v 1. tisíciletí př. n. l. ve střední a severozápadní části státu Nigérie. Je pojmenována podle vesnice Nok ve státě Kaduna, kde byly roku 1928 v cínovém dole objeveny zlomky terakotových sošek.",
+        "url":"https://cs.wikipedia.org/wiki/Kultura_Nok"
+     },
+     {
+         "year":"400 př. n. l.",
+         "event":"Rozvoj zpracování železa",
+         "detail":"Pozůstatky jednoduchých pecí na zpracování železa byly nalezeny na archeologickém nálezišti v Opi. Železná ruda byla tavena v přírodních tažných pecích a roztavená struska byla odváděna mělkými kanály, které poté vytvářely obrovské struskové bloky o hmotnosti 47 kg. Odhaduje se, že tyto pece tavily rudu při teplotách až 1450°C.",
+         "url":"https://en.wikipedia.org/wiki/Opi_(archaeological_site)"
+     },
+     {
+        "year":"1100",
+        "event":"Založení islámské říše Kanem",
+        "detail":"Kánem-bornuská říše byl středověký státní útvar, který existoval od 9. do konce 14. století v Africe v okolí Čadského jezera. Říše se rozkládala na území států Čad, Niger a Nigérie. Říši nejspíše založili kočovníci mluvící jazykem Teda-Daza. Mimo této skupiny však zde žili lidé z etnika Zaghawa, kteří postupně v říši získali převahu. Vládce, či spíše šaman, Sayfawa založil po roce 850 vládnoucí dynastii. Její představitele však nelze považovat za vládce, spíše se jednalo o nejvyšší duchovní představitele. Tradice poukazuje na to, že vládnoucí dynastie byla arabského původu a pocházela z rodu legendárního jemenského hrdiny Saífa ibn Dhí Jazana.",
+        "url":"https://cs.wikipedia.org/wiki/Kanem"
+     },
+     {
+         "year":"1807",
+         "event":"Zákon o obchodu s otroky 1807",
+         "detail":"Zákon o obchodu s otroky z roku 1807, oficiálně zákon o zrušení obchodu s otroky, byl zákon parlamentu Spojeného království zakazující obchod s otroky v Britském impériu. Ačkoli to nezrušilo otroctví, povzbudilo britské kroky, aby přiměly ostatní národní státy, aby zrušily své vlastní obchody s otroky.",
+         "url":"https://en.wikipedia.org/wiki/Slave_Trade_Act_1807"
+     },
+     {
+         "year":"1960",
+         "event":"Oddělení od Britů",
+         "detail":"V roce 1960 se oddělila Nigérie od Britů a získala nezávislost, v tentýž rok byla oficiálně schválena vlajka i státní znak a následně v roce 1963 se stala Nigérijskou republikou.",
+         "url":"https://en.wikipedia.org/wiki/Federation_of_Nigeria"
+
+     },
+     {
+         "year":"1999",
+         "event":"Ukončení vojenské vlády",
+         "detail":"Po smrti generála Abachy v roce 1998 byly v zemi konečně uspořádány svobodné a legitimní volby, prezidentem se na příštích osm let do roku 2007 stal Olusegun Obasanjo.",
+         "url":"https://cs.wikipedia.org/wiki/D%C4%9Bjiny_Nig%C3%A9rie"
+     }
+  ]
