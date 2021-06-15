@@ -22,8 +22,20 @@ app.get('/api/events', (req, res) => {
 });
 
 app.get('/api/events/:index', (req, res) => {
-    readJSON('/historie/data/udalosti.json')
+    readJSON('public/historie/data/udalosti.json')
     .then(data => res.send(data[req.params.index]))
+    .catch(err => res.send('Chyba lávky', err));
+});
+
+app.get('/api/town', (req, res) => {
+    readJSON('public/mapa/data/js/towns.json')
+    .then(data => res.send(data))
+    .catch(err => res.send('Chyba lávky', err));
+});
+
+app.get('/api/park', (req, res) => {
+    readJSON('public/mapa/data/js/parks.json')
+    .then(data => res.send(data))
     .catch(err => res.send('Chyba lávky', err));
 });
 

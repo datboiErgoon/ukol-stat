@@ -1,51 +1,84 @@
+
 $(function() {
+let mesta = [];
+let parky = [];
+
+fetch('../mapa/data/js/towns.json')
+.then(response => {
+   return response.json();
+})
+.then(json =>{
+   mesta = json;
+})
+.catch(function(error){
+   console.error('Chyba: \n', error);
+});
+
+fetch('../mapa/data/js/parks.json')
+.then(response => {
+   return response.json();
+})
+.then(json =>{
+   parky = json;
+})
+.catch(function(error){
+   console.error('Chyba: \n', error);
+});
 
   let poi = [];
   fetch('http://localhost:8080/api/town')
   .then(response => { return response.json() })
   .then(json => { poi = json; })
   .catch(function (error) { console.error('Error: \n', error); });
+  
+  fetch('http://localhost:8080/api/park')
+  .then(response => { return response.json() })
+  .then(json => { poi = json; })
+  .catch(function (error) { console.error('Error: \n', error); });
+
+
 
 
   let lastfill = $("svg").attr('fill');
-  $("path, rect, ellipse").on('click', function() { //on click on path
-    if (lastfill == 'rgb(4, 132, 4)') { //if lastfill is yellow
-      $(this).css({'fill': '#7c7c7c'}); //set the color to black
-      lastfill = "#cccccc"; //set lastfill to grey
-      $("#textsel").html("...");
+  $("path").on('click', function() { 
+
+    if (lastfill == 'rgb(4, 132, 4)') { 
+      $(this).css({'fill': '#7c7c7c'}); 
+      lastfill = "#cccccc"; 
       $('#towninfo').html("");
     } else {
-      $("path").css('fill', $("svg").attr('fill')); //revert all path to grey
-      $("rect, ellipse").css('fill', $("g").attr('fill')); //revert all rect to red
-      $(this).css({'fill': 'green'}); //set current to yellow
-      lastfill = "rgb(4, 132, 4)"; //set last fill to yellow
-      $("#textsel").html("Kraj - " + $(this).attr('name')); //set h1 to name of path
+      $("path").css('fill', $("svg").attr('fill')); 
+      $("path, rect, ellipse").css('fill', $("g").attr('fill')); 
+      $(this).css({'fill': 'green'}); 
+      lastfill = "rgb(4, 132, 4)"; 
       $('#towninfo').html("");
     }
   });
-  $("path, rect, ellipse").on('mouseover', function() { //on mouse over on path
+  
+  $("path").on('mouseover', function() { 
     lastfill = $(this).css('fill');
-    if (lastfill == 'rgb(4, 132, 4)') { //if lastfill is yellow
-      $(this).css({'fill': 'rgb(2, 90, 2)'}); //set path to black-ish yellow
+    if (lastfill == 'rgb(4, 132, 4)') { 
+      $(this).css({'fill': 'rgb(2, 90, 2)'}); 
     } else {
-      $(this).css({'fill': '#7c7c7c'}); //set path to black
+      $(this).css({'fill': '#7c7c7c'}); 
     }
   });
-  $("path, rect, ellipse").on('mouseout', function() { //on mouse out on path set previous color
+
+  $("rect, ellipse").on('mouseover', function() { 
+    lastfill = $(this).css('fill');
+      $(this).css({'fill': 'rgb(2, 90, 2)'}); 
+  });
+
+
+
+  $("path, rect, ellipse").on('mouseout', function() { 
     $(this).css({'fill': lastfill});
   });
 
-  $("rect, ellipse").on('click', function() { //on click on path
-    if (lastfill == 'rgb(4, 132, 4)') {
+  $("rect, ellipse").on('click', function() { 
       let id = $(this).attr('id');
-      $("#textsel").html("Město - " + id);
-
       let mesto = mesta.find(item => {return item.id == id});
-      $('#towninfo').slideUp(1000, function(){$('#towninfo').html(`<h4>Počet obyvatel: ${new Intl.NumberFormat('cs-CS').format(mesto.population)}</h4><hr><p>${mesto.info}</p>`)});
+      $('#towninfo').slideUp(700, function(){$('#towninfo').html(`<div class="container border mt-3 mb-3" ><h3>${mesto.city}</h3> Počet obyvatel: ${new Intl.NumberFormat('cs-CS').format(mesto.population)}<hr><p>${mesto.text}</p></div`)});
       $('#towninfo').slideToggle(600);
-    } else {
-      $(this).css({'fill': $("g").attr('fill')});
-      lastfill = "rgb(212,0,0)";
-    }
   });
 });

@@ -1,0 +1,135 @@
+[
+    {
+       "id":"abuja",
+       "city":"Abuja",
+       "population":1235880,
+       "sign":"abuja-znak.svg",
+       "text":"Abuja či Abudža je hlavním městem Nigérie. Má přibližně 1,24 milionu obyvatel. V roce 1976 bylo rozhodnuto o přesunutí hlavního města z Lagosu do nově zbudované metropole v centrální části země, v tzv. Federal Capital Territory. Jedná se o vybudování nové metropole na zelené louce, podobně jako například město Brasilia. Abuja se stala hlavním městem v roce 1991. Dodnes se nepodařilo městu vetknout opravdu metropolitní ráz. Po dlouhou dobu byla Abuja téměř prázdným městem, do kterého se přestěhovali úředníci z Lagosu. Mnoho zahraničních velvyslanectví bylo do Abuji přesunuto, ale řada zemí si v Lagosu ponechala alespoň konzulát."
+    },
+    {
+       "id":"minna",
+       "city":"Minna",
+       "population":304113,
+       "sign":"minna-znak.svg",
+       "text":"Minna je město (odhadovaný počet obyvatel 304 113 v roce 2007) ve středním pásu Nigérie. Je hlavním městem státu Niger, jednoho z 36 nigerijských federálních států. Tvoří ho dvě hlavní etnické skupiny: Nupe a Gwari. Podle archeologických nálezů se osídlení oblasti datuje přibližně do doby před 47 000-37 000 lety. Muslimská kultura pronikla do Minny prostřednictvím starověkých saharských obchodních cest a ve městě se nachází mnoho mešit včetně Centrální mešity v Minně a muslimských organizací, jako je Islámský vzdělávací fond, Minna, Muslimská studentská společnost Nigérie - Rada oblasti Minna (MSSN-MNAC), Sdružení Da'watu-Ilallahi-Wa-Rasulihi (DAWRA)."
+    },
+    {
+       "id":"lafia",
+       "city":"Lafia",
+       "population":330712,
+       "sign":"lafia-znak.svg",
+       "text":"Lafia je město v severní části střední Nigérie. Je hlavním městem státu Nasarawa a podle výsledků sčítání lidu z roku 2006 v něm žije 330 712 obyvatel. Lafia, známá také jako Lafian bare-bari, je hlavní město státu Nasarawa ve střední Nigérii. Bylo založeno Muhammadu Dunamou na konci 17. století na místě vesnice Koro (Migili). Domorodí Koro se stěhovali na jih do Agyaragu, Anise atd. Město má nyní svého sedmnáctého emíra v osobě ctihodného soudce Sidi Bage Muhammada I JSC rtd. Lafia se koncem 19. století stala hlavním městem významného místního náčelnictva."
+    },
+    {
+       "id":"jos",
+       "city":"Jos",
+       "population":873943,
+       "sign":"jos-znak.svg",
+       "text":"Jos je město ve Středním pásu Nigérie. Podle sčítání lidu z roku 2006 zde žije přibližně 900 000 obyvatel. Lidově se mu říká 'město J' a je správním a největším městem státu Plateau. Město se nachází na náhorní plošině Jos v nadmořské výšce přibližně 1 238 metrů, tedy 4 062 stop nad mořem. Během britské koloniální nadvlády byl Jos důležitým centrem těžby cínu a je obchodním centrem státu, neboť obchodní aktivity se neustále zvyšují. Prvními známými osadníky země, která se později stala známou jako Nigérie, byli Nokové (asi 1000 let př. n. l.), zruční řemeslníci z okolí Josu, kteří koncem prvního tisíciletí záhadně zmizeli."
+    },
+    {
+       "id":"kano",
+       "city":"Kano",
+       "population":4103000,
+       "sign":"kano-znak.svg",
+       "text":"Kano je hlavní město státu Kano, který je nejlidnatějším nigerijským státem ležícím v severozápadní zóně. Město bylo po tisíciletí významným lidským sídlem. Je druhým nejlidnatějším městem podle počtu obyvatel v rámci městských hranic, žijí zde více než čtyři miliony obyvatel na ploše 5 700 km². Je tradičním státem dvousetleté dynastie Dabo, která od 19. století zůstala tradičními vládci městského státu až do bitvy o Kano, kdy bylo město začleněno do Britského impéria. Rada emirátu Kano je současnou tradiční institucí uvnitř hranic města Kano a spadá pod vládu státu Kano. Město se nachází v Sahelu, jižně od Sahary, a je jedním ze sedmi středověkých hauských království a hlavními obyvateli města jsou Hausové."
+    },
+    {
+       "id":"katsina",
+       "city":"Katsina",
+       "population":429524,
+       "sign":"katsina-znak.gif",
+       "text":"Katsina je místní samosprávná oblast a hlavní město státu Katsina na severu Nigérie. Katsina se nachází asi 260 km východně od města Sokoto a 135 km severozápadně od Kana, v blízkosti hranic s Nigerem. V roce 2016 se počet obyvatel Katsiny odhadoval na 429 000. Město je centrem zemědělské oblasti, kde se pěstují podzemnice olejná, bavlna, kůže, proso a perlička, a nachází se zde také továrny na výrobu arašídového oleje a oceli. Město je z velké části muslimské a obyvatelé města pocházejí převážně z etnické skupiny Fulani. Bývalý nigerijský prezident Umaru Yar'Adua byl šlechticem z Katsiny. Současným guvernérem Katsiny je Aminu Bello Masari, který složil přísahu jako výkonný guvernér státu 29. května 2015 a vystřídal Barr. Ibrahima Shema."
+    },
+    {
+       "id":"gusau",
+       "city":"Gusau",
+       "population":383162,
+       "sign":"gusau-znak.svg",
+       "text":"Město Gusau se nachází na severozápadě Nigérie a je hlavním městem státu Zamfara. Je to také název místní vládní oblasti (LGA) státu, která má rozlohu 3 364 km² a při sčítání lidu v roce 2006 v ní žilo 383 162 obyvatel. Gusau se nachází severně od linie vedené z Kebbe do Kana v Nigérii. Jeho různorodé etnické obyvatelstvo se skládá převážně z etnických skupin Fulani, Hausa, Yoruba, Igbo, Igala a Nupe. S příchodem britského kolonialismu se vznikající město Gusau stalo důležitým obchodním a administrativním centrem s dobře propojenou silniční a železniční sítí."
+    },
+    {
+       "id":"sokoto",
+       "city":"Sokoto",
+       "population":485246,
+       "sign":"sokoto-znak.png",
+       "text":"Sokoto je velké město ležící na severozápadě Nigérie, nedaleko soutoku řek Sokoto a Rima. V roce 2006 zde žilo přes 427 760 obyvatel. Sokoto je současným hlavním městem státu Sokoto a dříve bylo hlavním městem severozápadních států. Název Sokoto (což je moderní/anglicky přeložená verze místního názvu Sakkwato) je arabského původu a představuje sooq, v angličtině 'trh'. Je také známé jako Sakkwato, Birnin Shaihu da Bello nebo 'Sokoto, hlavní město Shaihu a Bello' Bello Umar Maikaset. Město je sídlem bývalého sokotského chalífátu, je převážně muslimské a je významným sídlem islámské vzdělanosti v Nigérii. Sultán, který stojí v čele chalífátu, je fakticky duchovním vůdcem nigerijských muslimů."
+    },
+    {
+       "id":"birnin",
+       "city":"Birnin Kebbi",
+       "population":125594,
+       "sign":"birnin-znak.gif",
+       "text":"Birnin Kebbi je město v severozápadní Nigérii. Je to hlavní město státu Kebbi a sídlo emirátu Gwandu. V roce 2007 mělo město odhadem 125 594 obyvatel. Kebbi je převážně hauský a fulanský stát, jehož hlavním náboženstvím je islám. Dříve bylo hlavním městem emirátu Kebbi, který se po dobytí Gwandu v roce 1831 přestěhoval do Argungu. Birnin Kebbi leží na řece Sokoto a je spojeno silnicí s Argungu (45 km severovýchodně), Jega (35 km jihovýchodně) a Bunza (45 km jihozápadně) a ve městě převládá etnická skupina Fulani. Město je obsluhováno mezinárodním letištěm Sir Ahmadu Bello."
+    },
+    {
+       "id":"damaturu",
+       "city":"Damaturu",
+       "population":46851,
+       "sign":"damaturu-znak.png",
+       "text":"Damaturu je místní samosprávná oblast ve státě Yobe na severu Nigérie. Sídlem oblasti je město Damaturu, hlavní město státu Yobe.Místní samosprávná oblast má rozlohu 2 366 km² a při sčítání lidu v roce 2006 zde žilo 88 014 obyvatel. Město Damaturu leží na dálnici A3 a podle odhadů z roku 2010 má 44 268 obyvatel. Damaturu je sídlem emirátu Damaturu, který byl svého času součástí emirátu Ngazaragamo se sídlem v Gaidamu."
+    },
+    {
+       "id":"maiduguri",
+       "city":"Maiduguri",
+       "population":575345,
+       "sign":"maiduguri-znak.svg",
+       "text":"Maiduguri je hlavní a největší město státu Borno na severovýchodě Nigérie. Město leží podél sezónní řeky Ngadda, která se v oblastech kolem Čadského jezera ztrácí v bažinách Firki. Maiduguri bylo založeno v roce 1907 Brity jako vojenská základna a od té doby se rychle rozrůstá a v roce 2007 zde žilo více než milion obyvatel. oblast byla po staletí domovem říše Kanem-Bornu. Maiduguri se ve skutečnosti skládá ze dvou měst: Yerwa na západě a Staré Maiduguri na východě. Yerwa byla založena v roce 1907 Abubakarem Garbai z Bornu jako hlavní město království Bornu. Předtím se zde nacházela malá vesnice známá jako Kalwa. Jednalo se o přenesení hlavního města Kanuriů z Kukawy. Staré Maiduguri si v roce 1908 vybrali Britové jako své vojenské velitelství, které nahradilo Mafoni. V témže roce se stalo sídlem britského rezidentního komisaře pro britské Bornu."
+    },
+    {
+       "id":"ibadan",
+       "city":"Ibadan",
+       "population":3649000,
+       "sign":"ibadan-znak.svg",
+       "text":"Ibadan je hlavní a nejlidnatější město státu Oyo v Nigérii. Po Lagosu a Kanu je třetím největším městem Nigérie, v roce 2021 zde žilo 3 649 000 obyvatel a v jeho metropolitní oblasti přes 6 milionů lidí. Podle rozlohy je největším městem v zemi. V době vyhlášení nezávislosti Nigérie v roce 1960 byl Ibadan největším a nejlidnatějším městem v zemi a druhým nejlidnatějším v Africe po Káhiře. Ibadan se nachází v jihozápadní Nigérii, 128 km ve vnitrozemí severovýchodně od Lagosu a 530 km jihozápadně od Abuji, federálního hlavního města. Je významným tranzitním bodem mezi pobřežní oblastí a oblastmi ve vnitrozemí země. Ibadan byl od počátku britské koloniální nadvlády správním centrem starého Západního regionu a části starobylých ochranných hradeb města stojí dodnes. Hlavními obyvateli města jsou Jorubové a různé komunity (zejména Igbo, Hausa a Efik) z jiných částí země."
+    },
+    {
+       "id":"lagos",
+       "city":"Lagos",
+       "population":23437435,
+       "sign":"lagos-znak.svg",
+       "text":"Lagos je nejlidnatějším městem Nigérie a druhým největším městem Afriky po Kinshase v Demokratické republice Kongo, kde v roce 2021 žilo 14,8 milionu obyvatel. Metropolitní oblast Lagosu má celkem 21,3 milionu obyvatel, což z ní činí druhou největší metropolitní oblast v Africe po Káhiře. Lagos je významným africkým finančním centrem a hospodářským střediskem státu Lagos a celé Nigérie. Toto velkoměsto má čtvrtý nejvyšší HDP v Africe a nachází se v něm jeden z největších a nejrušnějších námořních přístavů na kontinentu. Je jedním z nejrychleji rostoucích měst na světě. Lagos původně vznikl jako domov podskupiny Aworiů ze západoafrického kmene Jorubů a později se stal přístavním městem, které vzniklo na souboru ostrovů, jež se nacházejí v dnešních místních vládních oblastech (LGA) Lagos Island, Eti-Osa, Amuwo-Odofin a Apapa. Ostrovy jsou odděleny zátokami, které lemují jihozápadní ústí Lagoské laguny, a zároveň jsou chráněny před Atlantickým oceánem bariérovými ostrovy a dlouhými písečnými kosami, jako je Bar Beach, které se táhnou až 100 km východně a západně od ústí."
+    },
+    {
+        "id":"benim",
+        "city":"Benim City",
+        "population":1782000,
+        "sign":"benim-znak.svg",
+        "text":"Benin City je hlavní a největší město státu Edo v jižní Nigérii. Po Lagosu, Kanu a Ibadanu je čtvrtým největším městem Nigérie a v roce 2021 zde žilo celkem 1 782 000 obyvatel. Nachází se přibližně 40 km severně od řeky Benin a 320 km po silnici východně od Lagosu. Benin City je centrem nigerijského gumárenského průmyslu a významným odvětvím je také těžba ropy. Bylo nejdůležitějším městem království Edo v Beninu, které vzkvétalo v průběhu 13. až 19. století. V posledních staletích udržovalo důležité obchodní vztahy s Portugalskem, než bylo v roce 1897 srovnáno se zemí při britském trestném nájezdu. Mnoho pokladů a artefaktů včetně beninských bronzů odvezli Britové, kteří po svém vítězství následovali vojenskou okupaci oblasti. Původním obyvatelstvem města Benin jsou Edoové (Beninský lid) a hovoří jazykem Edo a dalšími edoidními jazyky. Obyvatelé města mají jednu z nejbohatších oděvních kultur na africkém kontinentu a jsou známí svými korálky, tělovými znaky, náramky, nákotníky, prací s rafií a samozásobitelským pěstováním jamů, plantainů a manioku."
+     },
+     {
+        "id":"port",
+        "city":"Port Harcourt",
+        "population":1152416,
+        "sign":"port-znak.svg",
+        "text":"Port Harcourt je hlavní a největší město nigerijského státu Rivers. Je pátým největším městem Nigérie po Lagosu, Kanu, Ibadanu a Benin City. Leží podél řeky Bonny a nachází se v deltě Nigeru. Podle odhadů z roku 2016 má městská část Port Harcourt 1 865 000 obyvatel, zatímco v roce 2006 zde žilo 1 382 592 obyvatel. Oblast, která se v roce 1912 stala Port Harcourtem, byla předtím součástí rybářských osad (rybářských přístavů) nazývaných v jazyce Okrika také Borikiri a zemědělských oblastí vesnické skupiny Diobu etnika Ikwerre. Koloniální správa Nigérie vytvořila přístav za účelem vývozu uhlí z kolonií v Enugu ležícím 243 km severně od Port Harcourtu, s nímž byl spojen železnicí zvanou Eastern Line, kterou rovněž vybudovali Britové."
+     },
+     {
+        "id":"owerri",
+        "city":"Owerri",
+        "population":1485476,
+        "sign":"owerri-znak.svg",
+        "text":"Owerri je hlavní město nigerijského státu Imo, které leží v srdci Igbolandu. Je také největším městem státu, na druhém místě je Orlu a na třetím Okigwe. Owerri se skládá ze tří samosprávných oblastí, včetně Owerri Municipal, Owerri North a Owerri West, má podle odhadů z roku 2016 přibližně 1 401 873 obyvatel a rozlohu přibližně 100 km². Owerri je na východě ohraničeno řekou Otamiri a na jihu řekou Nworie. Slogan města Owerri zní Heartland. V současné době je označováno za hlavní město zábavy Nigérie, protože se zde nachází velká hustota prostorných hotelů, kasin na vysokých ulicích, produkčních studií a kvalitních relaxačních center. Konají se zde každoroční soutěže krásy Miss Heartland a Miss Adanma."
+     },
+     {
+        "id":"enugu",
+        "city":"Enugu",
+        "population":1254864,
+        "sign":"enugu-znak.svg",
+        "text":"Enugu je hlavní město nigerijského státu Enugu. Nachází se na jihovýchodě Nigérie. Podle nigerijského sčítání lidu z roku 2006 mělo město 722 664 obyvatel. Název Enugu je odvozen ze dvou igbských slov Énú Ụ́gwụ́, což znamená 'vrchol kopce' a označuje kopcovitou geografii města. Město bylo pojmenováno podle města Enugwu Ngwuo, pod nímž bylo nalezeno uhlí. Enugwu Ngwuo je jednou z deseti vesnic, které tvořily klan Ngwuo, často označovaný jako děti Ngwuako, rodového zakladatele klanu. Ngwuako umístil Udeneogu, svého syna bojovníka na vrchol kopce (Enu-Ugwu), aby chránil klan před nájezdníky. Enugwu Ama Udeneogu, (Enugwu, země Udeneogu) Lidé žili na vrcholu kopce a obdělávali rozlehlá okolní údolí. Ngwuo hraničí s klanem Oshie na jihu, klanem Ojebeogene na severu a klanem Nkanu na východě."
+     },
+     {
+        "id":"uyo",
+        "city":"Uyo",
+        "population":662541,
+        "sign":"uyo-znak.svg",
+        "text":"Uyo je hlavní město státu Akwa Ibom na jihu Nigérie. Hlavním městem se stalo 23. září 1987, kdy byl stát Akwa Ibom vytvořen z bývalého státu Cross River. Podle nigerijského sčítání lidu z roku 2006 má Uyo (včetně Itu) 427 873 obyvatel, zatímco větší městská oblast včetně Uruanu má 554 906 obyvatel. Hlavním domorodým jazykem je ibibio. Hlavní kampus Uyjské univerzity se nachází ve městě Nwaniba, satelity jsou na Ikpa Road."
+     },
+     {
+        "id":"calabar",
+        "city":"Calabar",
+        "population":513548,
+        "sign":"calabar-znak.svg",
+        "text":"Kalabar (též Callabar, Calabari, Calbari, Kalabari a Kalabar) je hlavní město státu Cross River v Nigérii. Původně se jmenovalo Akwa Akpa, v jazyce Efik. Město sousedí s řekami Kalabar a Velká Kwa a potoky řeky Cross River (z její vnitrozemské delty). Kalabar je často označován za hlavní město cestovního ruchu Nigérie, a to zejména díky několika iniciativám realizovaným za vlády Donalda Duka (1999-2007), díky nimž se město stalo nejčistším a ekologicky nejpříznivějším městem v Nigérii. Administrativně se město dělí na městskou oblast Calabar a samosprávnou oblast Calabar South. Má rozlohu 406 km2 a podle sčítání lidu z roku 2006 zde žije 371 022 obyvatel."
+     }
+]
