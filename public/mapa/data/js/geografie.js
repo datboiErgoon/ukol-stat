@@ -31,9 +31,10 @@ fetch('../mapa/data/js/parks.json')
   .then(json => { poi = json; })
   .catch(function (error) { console.error('Error: \n', error); });
   
+  let poi2 = [];
   fetch('http://localhost:8080/api/park')
   .then(response => { return response.json() })
-  .then(json => { poi = json; })
+  .then(json => { poi2 = json; })
   .catch(function (error) { console.error('Error: \n', error); });
 
 
@@ -75,10 +76,17 @@ fetch('../mapa/data/js/parks.json')
     $(this).css({'fill': lastfill});
   });
 
-  $("rect, ellipse").on('click', function() { 
+  $("ellipse").on('click', function() { 
       let id = $(this).attr('id');
       let mesto = mesta.find(item => {return item.id == id});
-      $('#towninfo').slideUp(700, function(){$('#towninfo').html(`<div class="container border mt-3 mb-3" ><h3>${mesto.city}</h3> Počet obyvatel: ${new Intl.NumberFormat('cs-CS').format(mesto.population)}<hr><p>${mesto.text}</p></div`)});
+      $('#towninfo').slideUp(700, function(){$('#towninfo').html(`<div class="container border mt-3 mb-3" ><h3>${mesto.city}</h3> Počet obyvatel: ${new Intl.NumberFormat('cs-CS').format(mesto.population)}<hr><p>${mesto.text}</p><img src="img/${mesto.sign}" style="height: 350px;"/></div`)});
       $('#towninfo').slideToggle(600);
   });
+
+  $("rect").on('click', function() { 
+    let id = $(this).attr('id');
+    let park = parky.find(item => {return item.id == id});
+    $('#towninfo').slideUp(700, function(){$('#towninfo').html(`<div class="container border mt-3 mb-3" ><h3>${park.locality}</h3> Rok založení: ${park.year} <hr><p>${park.description}</p><img src="img/${park.photo}" style="height: 350px;"/></div`)});
+    $('#towninfo').slideToggle(600);
+});
 });

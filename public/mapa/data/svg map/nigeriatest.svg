@@ -1,81 +1,6 @@
-<!DOCTYPE html>
-<html lang="cs">
-
-<head>
-
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
-
-  <title>Nigérie | Historie</title>
-
-  <!-- Bootstrap core CSS -->
-  <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Custom styles for this template -->
-  <link href="../css/simple-sidebar.css" rel="stylesheet">
-  <link href="../css/historie.css" rel="stylesheet">
-
-  <link rel="icon" href="../img/vlajka-nigerie.jpg">
-</head>
-
-<body>
-
-<header class="hedr">
-    <h1 class="text-black display-4 text-center p-5">Nigerijská federativní republika <small>(Nigérie)</small></h1>
-  </header>
-
-  <div class="d-flex" id="wrapper">
-    <!-- Sidebar -->
-    <div class="sdebar border-right" id="sidebar-wrapper">
-      <div class="sidebar-heading"><a href="https://cs.wikipedia.org/wiki/Nig%C3%A9rie"><img src="../img/vlajka-nigerie.jpg" alt="Státní vlajka Nigérie" style="height: 80px; width: 130px;"/></a></div>
-      <div class="list-group list-group-flush">
-        <a href="../index.html" class="list-group-item list-group-item-action sdebar">Úvodní strana</a>
-        <a href="../historie/historie.html" class="list-group-item list-group-item-action sdebar">Historie</a>
-        <a href="mapa.html" class="list-group-item list-group-item-action sdebar">Interaktivní mapa</a>
-      </div>
-    </div>
-    <!-- /#sidebar-wrapper -->
-
-    <!-- Page Content -->
-    <div id="page-content-wrapper">
-
-      <nav class="navbar navbar-expand-lg navbar-light sdebar border-bottom">
-        <button class="btn batn" id="menu-toggle">. . .</button>
-
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-            <li class="nav-item active">
-              <a class="znak navbar-brand" href="../index.html"><img src="../img/znak-nigerie.png" alt="Státní znak Nigérie" style="height: 50px;"/> <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle drop" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Odkazy
-              </a>
-              <div class="sdebar dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item drop" href="#jedna">Události</a>
-                <a class="dropdown-item drop" href="#dva">Hrdinové</a>
-                <a class="dropdown-item drop" href="#tri">Novinky</a>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </nav>
-
-    <main>
-      <div class="container border mt-3 mb-3">
-        <h2>Interaktivní mapa</h2>
-        <div class="row">
-          <div class="col-12" id="mapa">
-            <?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- (c) ammap.com | SVG map of Nigeria - High -->
-
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="110%"  viewBox="30 -10 275 180">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg">
  <defs>
   <style type="text/css">.land
 			{
@@ -150,7 +75,7 @@
     <ellipse id="minna" cx="215.71" cy="267.21" rx="6.265" ry="7.3785" stroke-width=".44">
      <title>Minna</title>
     </ellipse>
-    <ellipse id="abuja" transform="matrix(.99981 .019559 -.012864 .99992 0 0)" cx="282.64" cy="309.07" rx="10.975" ry="12.44" stroke="#ffffff"stroke-width="2.5">
+    <ellipse id="abuja" transform="matrix(.99981 .019559 -.012864 .99992 0 0)" cx="282.64" cy="309.07" rx="10.975" ry="12.44" stroke-width=".75617">
      <title>Abuja</title>
     </ellipse>
     <ellipse id="ibadan" cx="71.679" cy="398.25" rx="6.265" ry="7.3785" stroke-width=".44">
@@ -175,8 +100,8 @@
    <ellipse id="lagos" cx="39.693" cy="460.37" rx="6.265" ry="7.3785">
     <title>Lagos</title>
    </ellipse>
-   <ellipse id="benin" cx="176.83" cy="470.21" rx="6.265" ry="7.3785">
-    <title>Benin City</title>
+   <ellipse id="benim" cx="176.83" cy="470.21" rx="6.265" ry="7.3785">
+    <title>Benim City</title>
    </ellipse>
    <ellipse id="port" cx="267.52" cy="562.32" rx="6.265" ry="7.3785">
     <title>Port Harcourt</title>
@@ -207,55 +132,3 @@
   </ellipse>
  </g>
 </svg>
-            
-  </div>
-  </div>
-  </div>
-  <div id="towninfo">
-      </div>
-    </div>
-  </div>
-      </main>
-
-
-      <footer class="container-fluid hedr text-white p-3">
-        <div class="row">
-            <div class="col-lg-3">
-                
-            </div>
-            <div class="col-lg-5">
-                <h4>Autor</h4>
-                <p>Ondřej Repko</p>
-            </div>
-            <div class="col-lg-4">
-                <h4>Zdroj informací</h4>
-                <p><a href="https://cs.wikipedia.org/wiki/Nig%C3%A9rie">https://cs.wikipedia.org/wiki/Nig%C3%A9rie</a></p>
-            </div>
-        </div>
-        <hr class="bg-white">     
-        <h4 class="pcenter">&copy; 2021, SŠPU Opava</h4>
-    </footer>
-
-    </div>
-  <!-- /#page-content-wrapper -->
-
-</div>
-<!-- /#wrapper -->
-
-<!-- Bootstrap core JavaScript -->
-<script src="../vendor/jquery/jquery.min.js"></script>
-<script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-<script src="../js/jquery-3.6.0.min.js"></script>
-<script src="../mapa/data/js/geografie.js"></script>
-
-<!-- Menu Toggle Script -->
-<script>
-  $("#menu-toggle").click(function(e) {
-    e.preventDefault();
-    $("#wrapper").toggleClass("toggled");
-  });
-</script>
-
-</body>
-
-</html>
