@@ -41,7 +41,9 @@ fetch('../mapa/data/js/parks.json')
 
 
   let lastfill = $("svg").attr('fill');
+  let pathfill = $("path").css("fill");
   $("path").on('click', function() { 
+  $("path").css("fill",pathfill);
 
     if (lastfill == 'rgb(4, 132, 4)') { 
       $(this).css({'fill': '#7c7c7c'}); 
@@ -54,6 +56,7 @@ fetch('../mapa/data/js/parks.json')
       lastfill = "rgb(4, 132, 4)"; 
       $('#towninfo').html("");
     }
+    $("h1").html($(this).attr('title')); 
   });
   
   $("path").on('mouseover', function() { 
